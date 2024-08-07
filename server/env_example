@@ -1,0 +1,2 @@
+PORT=8000
+DATABASE=postgres://name:12345@localhost:5432/name_bd
