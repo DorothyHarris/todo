@@ -7,11 +7,11 @@ const TodoInput = () => {
 
   return (
     <Box border="1px" borderColor="gray.200" p={5}>
-      <Box mb={10} fontSize={30}>
+      <Box color={"white"} mb={10} fontSize={30}>
         TodoInput
       </Box>
       <Flex>
-        <EditIcon bg="#18B6F4" boxSize={10} color={"white"} />
+        <EditIcon borderRadius={5} bg={"orange"} boxSize={10} color={"white"} />
         <Input
           value={task}
           width={1000}
@@ -19,7 +19,7 @@ const TodoInput = () => {
           onChange={(event) => setTask(event.target.value)}
         />
       </Flex>
-      <Button width={850} bg="#18B6F4" color={"white"} mt={30}>
+      <Button width={850}  bg={"orange"} color={"white"} mt={30}>
         Add new task
       </Button>
     </Box>
