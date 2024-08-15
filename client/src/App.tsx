@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path={"/"} element={<AuthRootComponent />} />
         <Route path={"/register"} element={<AuthRootComponent />} />
-        <Route path={"todo"} element={<TodoPage />} />
+        <Route path={"/todo"} element={<TodoPage />} />
       </Routes>
     </>
   );
